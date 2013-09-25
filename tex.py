@@ -52,11 +52,6 @@ def renderTex(query):
 	#Return path to newly created/existing file
 	return open(_TREE_PATH+str(qhash)+"/"+bucketTable[query]).read();
 
-
-
-
-#Pointless comment
-
 def hashFunc(s):
 	"""
 	Call some hashfunc and return the result.
