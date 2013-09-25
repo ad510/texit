@@ -59,7 +59,6 @@ def graph(query):
     mp.track(request.remote_addr, 'rendered graph')
   return Response(renderGraph(query.replace(".png","").replace(" ","")),mimetype='image/png')
 
-#Pointless comment
-
+# Program starting point
 if __name__=="__main__":
   app.run();
